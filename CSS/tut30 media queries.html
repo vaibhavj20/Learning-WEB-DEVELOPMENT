@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media queries</title>
+    <style>
+        .box{
+            font-size: 32px;
+            background-color: red;
+            color:white;
+            text-align: center;
+            display: none;
+        }
+        @media (max-width: 300px){
+            #box-1{
+                display: block;
+                background-color: aqua;
+            }
+        }
+
+        @media (min-width: 300px) and (max-width: 500px) {
+            #box-2{
+                display: block;
+                background-color: lightcoral;
+            }
+        }
+       @media (min-width: 500px) and (max-width: 800px) {
+            #box-3{
+                display: block;
+                background-color:forestgreen;
+            }
+        }
+        @media (min-width: 800px)  {
+            #box-4{
+                display: block;
+                background-color: darkgrey;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1">Satish</div>
+    <div class="box" id="box-2">Vaibhav</div>
+    <div class="box" id="box-3">Yogesh</div>
+    <div class="box" id="box-4">Nilesh</div>
+</body>
+</html>
+

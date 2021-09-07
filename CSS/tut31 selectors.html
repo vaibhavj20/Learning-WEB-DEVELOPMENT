@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> more on CSS selectors</title>
+    <style>
+     h1{
+         background-color: violet;
+         color: black;
+         font-weight: bold;
+         text-align: center;
+     }
+
+     /*if p id contained by any li which is contained by div*/
+    /* div li p{
+         background-color: aqua;
+             font-weight: bold;
+        }*/
+
+       /* if p is right inside div then this Css will be applied*/
+       /* div > p{
+            background-color: aqua;
+                font-weight: bold;
+        }*/
+
+        /*if p is right after div i.e p is the next sibblings of div*/
+       
+         div+p{
+             color: white;
+             background-color: red;
+         }
+
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="class"><p>hiiiiii</p></li>
+                <li>this will not get affected</li>
+            </ul>
+            <p>this is paragraph</p>
+        </div>
+        <p>this is another para</p>
+
+    </div>
+    <p>this is outermost para</p>
+</body>
+</html>

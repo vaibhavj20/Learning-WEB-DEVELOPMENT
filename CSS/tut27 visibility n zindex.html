@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visibility and z-index</title>
+    <style>
+        .box{
+            width: 170px;
+            height: 170px;
+            border: 2px solid  black;
+                }
+                #box1{
+                    position: relative;
+                    top: 49px;
+                    z-index: 50;
+
+                    background-color: aqua;}
+                #box2{
+                    position: relative;
+                    top:14px;
+                    z-index:60;
+                    /*visibility: hidden;  = means box hidden with space and the spaaace remains as it is */
+                    /*display: none; =means  cant shows that block only shows 134 block bjoining together*/
+                    background-color: rgb(223, 107, 72);}
+                #box3{ background-color: rgb(182, 112, 240);}
+                #box4{ background-color: rgb(229, 235, 114);}
+                
+    </style>
+</head> 
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

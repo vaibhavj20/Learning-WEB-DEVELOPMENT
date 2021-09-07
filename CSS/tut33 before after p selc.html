@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Before and after pseudo selectors</title>
+
+    <style>
+        .navigation{
+            display: flex;
+            font-size: 18px;
+        }
+        li{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            list-style: none;
+            padding: 20px 34px;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color:white;
+        }
+        header::before{
+            content:"";
+            background: url('https://source.unsplash.com/WLUHO9A_xik/1600x900') no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        
+        }
+   section{
+       height: 200px;
+       font-family:cursive;
+       margin: 3px 23px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+   }
+  /* section::after{   **pseudo selectors are using for texting before and after**
+       content:"this is a content"
+   }*/
+   h1{
+       font-size: 3rem;
+   }
+   p{
+       text-align: center;
+   }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact</li>
+            </ul>
+        </nav>
+    </header>
+            <section>
+                <h1>Welcome to coding world</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem laboriosam illo et dolores enim, non necessitatibus laudantium iste suscipit quisquam eveniet dolorem tempora ipsum repellendus possimus dignissimos. Quod sed esse deleniti labore. Cumque, quos.</p>
+            </section>
+        <hr>
+</body>
+</html>

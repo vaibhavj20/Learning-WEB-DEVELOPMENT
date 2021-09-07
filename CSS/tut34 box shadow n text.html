@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOX SHADOW AND TEXT SHADOW</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        
+    }
+    .card{
+        padding: 23px 14px;
+      /*border: 2px solid black;*/
+        margin: 20px 12px;
+        background-color: rgb(235, 197, 235);
+        /*box-shadow: 10px 13px gray;
+
+         in the above box shadow offset-x and offset-y is there and color at last
+          and in this the shodow goes in downward direction*/
+
+
+        /*box-shadow: -10px -13px gray;
+        in above property minus indicates that the shadow is going to upper of the box*/
+
+
+        box-shadow: 10px 13px 10px gray; 
+        /*the third one is blur radius  ,,in this minus values are also works*/
+
+
+
+       /* box-shadow: 10px 13px 10px 34px rgba(156, 219, 211, 0.2);
+        the fourth one is spread radius its spread the shadow as per its value around the box
+       and fifth one is rgba color in this the last one is alpha = takes responsibility of darkness here */
+
+
+       /*box-shadow: inset 3px 4px blueviolet;
+       when we want inner shadow then we use this property*/
+
+
+      /* box-shadow: 3px 4px blueviolet,3px 5px pink;
+       when we want add two color shadow use this property seperated by comma*/
+
+    }
+    .card h2{
+        text-shadow: 2px 3px 5px yellowgreen;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is HTML Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis commodi, totam ratione ut tenetur omnis nisi autem ducimus, sunt culpa eligendi magni reprehenderit aliquid ipsam consectetur, ex nulla fugiat dolorum
+
+            </p>
+
+        </div>
+        <div class="card" id="card-2">
+            <h2>Ths is C++ Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis asperiores commodi nisi esse harum repellat doloremque tempora distinctio sit aut quos quam hic eius debitis, quod iusto facilis nulla fugit?</p>
+
+        </div>
+        <div class="card" id="card-3">
+            <h2>PHP</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis asperiores commodi nisi esse harum repellat doloremque tempora distinctio sit aut quos quam hic eius debitis, quod iusto facilis nulla fugit?</p>
+
+        </div>
+    </div>
+</body>
+</html>

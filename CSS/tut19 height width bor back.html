@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>height,width,borders,background</title>
+    <style>
+    #firstpara{
+        background-color: red;
+        height: 100px;
+        width: 455px;
+        border: 4px solid aqua;    
+       /* border-width: 4px;
+        border-color: aqua;
+        border-style: solid;      instead of writing separate properties we have to write  border: 4px solid aqua;*/
+        border-radius: 13px;
+        
+
+ 
+    }
+    #secondpara{
+            background-color:gray;
+            height: 100px;
+            width: 455px;
+            border-top: 2px solid black;
+            border-right: 2px solid rgb(253, 249, 4);
+            border-left: 2px solid rgb(8, 32, 248);
+            border-bottom: 2px solid rgb(11, 237, 245);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 33px;
+            border-bottom-right-radius: 48px;
+
+    }
+
+    #thirdpara{
+            height: 100px;
+            width: 455px;
+             /*background-image: ;  link of back image*/
+
+             border: 2px solid red;
+             border-image-repeat: no-repeat; /*repaet x and y will make it repeat on x and y axis*/
+             background-position: 122px 133px; /*moves 122px from x axis and 133px from y axis
+             background-position: 133px top; /*center-center, center top,center bottom,center left,right*/
+
+    }
+    </style>
+</head>
+<body>
+    <h3>this is heading</h3>
+    <p id="firstpara">this is first paragraph</p>
+
+    <p id="secondpara"> this is second paragraph</p>
+
+    <p id="thirdpara" >this is third paragraph</p>
+
+
+    <!-- <body style="background-color: aquamarine;" > -->
+    
+</body>
+    
+
+</body>
+</html>

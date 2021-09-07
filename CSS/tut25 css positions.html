@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS positions</title>
+    <style>
+     /*   CSS position:static(default),absolute,relative,fixed,sticky*/
+
+     .container{
+        border: 3px solid black;
+        background-color: rgb(188, 231, 231);
+        height: 3444px;
+     }
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box3{
+          /*  position: relative; /*rekative to itsnormal positionand will leave gap at its normal postiion
+            top: 34px;
+            left: 34px;*/
+
+
+          /* position:absolute;/* relative to the 1st parent*/
+       /* position: absolute;
+            top: 34px;
+            left: 34px;*/
+
+
+         /* position: fixed; /*relative to the  browser window
+          right: 4px;
+          bottom: 2px;*/
+       position: sticky;
+        top: 0px;
+        
+
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">chat with me!</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>
