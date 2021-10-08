@@ -1,5 +1,9 @@
 
 //VALUES AND VARIABLES 
+/*
+
+
+
 
 let js = 'amazing';
 console.log(40 + 40 + 50);
@@ -87,6 +91,12 @@ const now = 2037;
 const agevaibhav = now - 1991;
 const agesatish = 2037 - 2018;
 console.log(agevaibhav, agesatish);
+*/
+
+
+
+
+
 
 /*console.log(agevaibhav * 2, agesatish / 10, 2 ** 3);
 //2**3 means 2 to thr power of 3=2*2*2;
@@ -97,7 +107,7 @@ console.log(firsName + ' ' + lastname);*/
 
 
 //Assignment operators
-
+/*
 let x = 10 + 5;
 x += 10; //x=x+10=25
 //here initially the vaue of x is 15 then we add x+= thats why its add 15+10=25;
@@ -127,7 +137,35 @@ x = y = 25 - 10 - 5; //x=y=10  right to left
 console.log(x, y);
 
 const averageage = (agevaibhav + agesatish) / 2
-console.log(agevaibhav, agesatish, averageage);
+console.log(agevaibhav, agesatish, averageage);*/
 
 
 
+//String and template literals
+
+const firstname = "vaibhav";
+const job = "Web developer";
+const birthYear = 2001;
+const year = 2021;
+
+const vaibhav = " i am " + firstname + ", a " + (year - birthYear) + " years old " + job + "!"
+console.log(vaibhav);
+
+const vaibhavnew = `I am ${firstname}, a ${year - birthYear} years old ${job}!`;
+console.log(vaibhavnew);
+
+console.log(`regular string using backticks....`);
+
+
+
+//multilines strings
+console.log(`string with \n\
+multiple\n\
+lines`);
+
+
+//another way
+
+console.log(`string with
+multiple
+lines`);
