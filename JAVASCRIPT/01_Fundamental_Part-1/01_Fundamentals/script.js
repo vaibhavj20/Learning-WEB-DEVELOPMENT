@@ -143,6 +143,9 @@ console.log(agevaibhav, agesatish, averageage);*/
 
 //String and template literals
 
+
+/*
+
 const firstname = "vaibhav";
 const job = "Web developer";
 const birthYear = 2001;
@@ -169,3 +172,88 @@ lines`);
 console.log(`string with
 multiple
 lines`);
+
+*/
+
+
+
+/*
+const age = 18
+if (age >= 18) {
+    console.log("vaibhav can start driving license🚗");
+}
+else {
+    const yearleft = 18 - age;
+    console.log(`vaibhav is too younger,wait another ${yearleft} years:`)
+}
+
+
+
+const birthYear = 1901;
+if (birthYear <= 2000) {
+    century = 20;
+}
+else {
+    century = 21;
+}
+console.log(century);
+
+*/
+
+
+
+/*
+
+
+//TYPE CONVERSION AND COERCION
+//type conversion
+const inputyear = "7001";
+console.log(Number(inputyear), inputyear);
+console.log(Number(inputyear) + 18);
+
+
+console.log(Number("vaibhav"));
+console.log(typeof NaN);
+console.log(String(22), 23);
+
+//type coercion
+console.log("i am " + 23 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" / "2");
+console.log("23" > "18");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+*/
+
+
+//Truthy and Falsy Values 
+/*
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("VAIBHAV"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 0;
+if (money) {
+    console.log("dont spend it all ")
+}
+else {
+    console.log("you should get a job");
+
+}
+
+let height = 200
+if (height) {
+    console.log("yayy! height is defined");
+
+}
+else {
+    console.log("height is undefined");
+}
+
+
+*/
