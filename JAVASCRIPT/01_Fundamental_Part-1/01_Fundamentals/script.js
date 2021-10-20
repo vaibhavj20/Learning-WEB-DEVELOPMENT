@@ -257,3 +257,35 @@ else {
 
 
 */
+
+
+// Equality Operator 
+const age = 18;
+if (age === 18) {
+    console.log("you just became an adult (strict)");
+}
+
+
+if (age == 18) {
+    console.log("you just became an adult (loose)");
+}
+
+const fav = Number(prompt("whats your favourite number"));
+console.log(fav);
+console.log(typeof fav);
+
+if (fav === 22) {
+    console.log("cool ! 22 is an amzing number")
+}
+else if (fav === 8) {
+    console.log("8 is also cool a number")
+}
+else if (fav === 15) {
+    console.log("15 is also cool a number")
+}
+else {
+    console.log("Number is not a 22 ,8,15")
+}
+if (fav !== 23) {
+    console.log("why not 23");
+}

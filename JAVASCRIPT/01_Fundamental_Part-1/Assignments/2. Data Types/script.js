@@ -10,7 +10,7 @@ let isIsland = true;
 let language;
 let Country = "India";
 let continent = "Asia";
-let Population = 1.366;
+let Population = 1366;
 console.log(typeof isIsland);
 console.log(typeof Population);
 console.log(typeof Country);
