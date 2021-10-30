@@ -260,6 +260,9 @@ else {
 
 
 // Equality Operator 
+
+
+/*
 const age = 18;
 if (age === 18) {
     console.log("you just became an adult (strict)");
@@ -289,3 +292,121 @@ else {
 if (fav !== 23) {
     console.log("why not 23");
 }
+*/
+
+
+//logical operators
+/*
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+
+console.log(!hasDriversLicense);
+
+/*if (hasDriversLicense && hasGoodVision) {
+    console.log("Vaibhav is able to drive");
+}
+else {
+    console.log("someone else should drive..")
+}*/
+/*
+const isTired = false;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Vaibhav is able to drive");
+}
+else {
+    console.log("someone else should drive..")
+}
+*/
+
+//switch statement
+const day = "sunday";
+
+/*
+switch (day) {
+    case "Monday":
+        console.log("Plan course structure");
+        console.log("Go to coding meetup");
+        break;
+    case "tuesday":
+        console.log("Prepare theory videos");
+        break;
+    case "wednesday":
+    case "thursday":
+        console.log("Write code examples");
+        break;
+    case "friday":
+        console.log("Record videos");
+        break;
+    case "saturday":
+    case "sunday":
+        console.log("Enjoy the weekend");
+        break;
+    default:
+        console.log("Not a valid day");
+}
+*/
+//if statements
+/*
+if (day === 'Monday') {
+    console.log("Plan course structure");
+    console.log("Go to coding meetup");
+}
+else if (day === "tuesday") {
+    console.log("Prepare theory videos");
+
+}
+else if (day === "wednesday" || day === "thursday") {
+    console.log("Write code examples");
+}
+
+else if (day === "friday") {
+    console.log("Record videos");
+}
+else if (day === "saturday" || day === "sunday") {
+    console.log("Enjoy the weekend");
+}
+else {
+    console.log("Not a valid day");
+}
+*/
+
+
+//statements and expressions
+/*
+2 + 20
+1254
+true && false && !false
+if (10 > 1) {
+    const str = "10 is bigger";
+}
+
+const me = " vaibhav";
+console.log(`i am ${2021 - 2001} years old${me}`);
+*/
+const age = 13;
+//age >= 18 ? console.log("i like to drink wine 🍷") : console.log("i like to drink water 💧")
+
+/*
+const drink = age >= 18 ? "wine 🍷" : "water 💧";
+console.log(drink);*/
+const drink = age >= 18 ? "wine 🍷" : "water 💧";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = "wine 🍷";
+}
+else {
+    drink2 = "water💧";
+}
+console.log(drink2);
+
+console.log(`i like to drink ${age >= 18 ? "wine 🍷" : "water 💧"} `);
