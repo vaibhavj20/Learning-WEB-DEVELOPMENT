@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*body {
+    color: black;
+    margin: 100px;
+    padding: 100px;
+}*/
+
+.item {
+    border: 2px;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(211, 191, 230);
+    box-shadow: 30px 30px 30px rgb(88, 87, 87);
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(36, 13, 243)
+}
